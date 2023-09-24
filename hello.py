@@ -1,19 +1,38 @@
 print("Hello world !")
-if 5 == 5:
-    print('Tena izy')
 
-a = "Bonjour le monde"
-b = 5
-if a != b:
-    print('Different')
-#This is a comment in python
-"""
-This is a comment
-written in
-more than just one line
-"""
-x = str(3)  
-y = int(3)    
-z = float(3)
-print(type(z))
-print(x,y,z)
+# commentaire en python
+print ('affichage en python')
+
+# declaration de variable
+x = 15
+print(x)
+
+# variable string
+y = 'Nom'
+print(y)
+
+# condition python
+if x > 0:
+    print('C\'est positif')
+else:
+    print('C\'est negatif')
+
+# les conditions logiques
+z = 20
+print(x+z)
+print(x-z)
+print(x*z)
+print(x/z)
+# fonction python
+
+def first_func():
+    print('Hello kitty')
+
+# boucle for
+fruits = ["akondro", "paiso", "paoma", "manga"]
+for fruit in fruits:
+    print(fruit)
+
+var_string = 'banane'
+for lettre in var_string:
+    print(lettre)
