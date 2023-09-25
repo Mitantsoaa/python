@@ -36,3 +36,11 @@ for fruit in fruits:
 var_string = 'banane'
 for lettre in var_string:
     print(lettre)
+
+# fonction lambda python
+a = lambda i : i*5
+print(a(2))
+
+# add element in array
+fruits.append('garana')
+print(fruits)
