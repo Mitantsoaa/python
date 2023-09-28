@@ -19,9 +19,9 @@ else:
 
 # les conditions logiques
 z = 20
-print(x+z)
-print(x-z)
-print(x*z)
+print(x + z)
+print(x - z)
+print(x * z)
 print(x/z)
 # fonction python
 
@@ -38,9 +38,29 @@ for lettre in var_string:
     print(lettre)
 
 # fonction lambda python
-a = lambda i : i*5
+a = lambda i:i * 5
 print(a(2))
 
 # add element in array
 fruits.append('garana')
 print(fruits)
+
+# delete element
+fruits.pop(0)
+print(fruits)
+
+# remove specific element
+fruits.remove('manga')
+
+# operateur logique
+if x > z & x > 0:
+    print('yeah')
+
+if x > z | z > 0:
+    print('yesss!')
+
+if ~x:
+    print('Tsy x')
+
+if x^y:
+    print(x^y)
