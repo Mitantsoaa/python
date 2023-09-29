@@ -64,3 +64,26 @@ if ~x:
 
 if x^y:
     print(x^y)
+
+# les liste sur python
+monList = ['loha','tanana','tongotra','kibo',1, 'true', 'omby']
+# longueur
+print(len(monList))
+# avec constructeur
+monSecondList = list(('atody','akoho','vorona','kisoa','omby'))
+print(monSecondList)
+
+
+# acceder au liste
+print(monList[2])
+# derniere element
+print(monList[-1])
+# retourne la second jusqu' à 4é element
+print(monList[1:3])
+# retourne du début jusqu' au 4è element sans le compter
+print(monList[:4])
+# retourne la troisieme jusqu' à la fin
+print(monList[2:])
+# test
+if 'omby' in monList:
+    print('raha omby ialahy efa namidiko')
