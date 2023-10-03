@@ -87,3 +87,31 @@ print(monList[2:])
 # test
 if 'omby' in monList:
     print('raha omby ialahy efa namidiko')
+# change list item
+fruits[2] = 'banana'
+
+fruits[1:3] = ['fraise', 'coco']
+
+print(fruits)
+
+# Add list item
+fruits.append('ketapotsy')
+print(fruits)
+
+fruits.insert(2,'voasary')
+print(fruits)
+
+# ralonger
+autre = ['omby', 'gana', 'atody']
+fruits.extend(autre)
+print(fruits)
+
+# remove list item
+fruits.remove('voasary')
+print(fruits)
+
+fruits.pop(2)
+print(fruits)
+
+del fruits[0]
+
