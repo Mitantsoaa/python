@@ -115,3 +115,10 @@ print(fruits)
 
 del fruits[0]
 
+# sort list alphabet
+fruits.sort()
+print(fruits)
+
+# desc sort
+fruits.sort(reverse = True)
+print(fruits)
