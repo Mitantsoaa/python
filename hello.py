@@ -122,3 +122,4 @@ print(fruits)
 # desc sort
 fruits.sort(reverse = True)
 print(fruits)
+
