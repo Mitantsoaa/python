@@ -1,3 +1,5 @@
+import constant
+
 print("Hello world !")
 
 # commentaire en python
@@ -73,3 +75,5 @@ print(fruits)
 fruits.sort(reverse = True)
 print(fruits)
 
+# show constant
+print(constant.PI)
